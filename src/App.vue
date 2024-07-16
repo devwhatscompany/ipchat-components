@@ -8,5 +8,6 @@ const teste = ref('')
 
 <template>
   <TextInput v-model="teste" label="TESTE" />
-  <WButton active color="primary" />
+  <WButton active color="secondary" label="Btn 1" />
+  <WButton active color="primary" label="Btn 2" />
 </template>
